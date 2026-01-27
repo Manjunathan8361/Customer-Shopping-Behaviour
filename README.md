@@ -61,5 +61,3 @@ Author
 
 Manjunathan - Data Analyst(fresher)
 
-
-Gender
