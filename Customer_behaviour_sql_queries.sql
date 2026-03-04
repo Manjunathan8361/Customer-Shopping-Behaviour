@@ -43,7 +43,7 @@ from customer
 group by subscription_status
 order by total_revenue, avg_spend desc;
 
--- Q9. Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
+-- Q6 Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
 
 select subscription_status,
 COUNT(customer_id) as repeat_buyers
@@ -51,7 +51,7 @@ from customer
 where previous_purchases > 5
 group by subscription_status
 
--- Q10. What is the revenue contribution of each age group? 
+-- Q7. What is the revenue contribution of each age group? 
 
 select age_group,
 SUM(purchase_amount) as total_revenue
