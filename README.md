@@ -10,57 +10,59 @@ The goal is to help businesses understand customers better and make data-driven 
 ## 📊 Dashboard Preview
 ![Customer Shopping Behaviour](customer_shopping_behaviour_dashboard_overview.png)
 
-🎯 Objectives
+🗂Dataset
 
-Analyze customer subscription status and demographics
+The dataset contains customer transaction data including:
 
-Understand sales and revenue distribution across categories
+Customer ID
 
-Identify purchasing trends by age group
+Gender
 
-Measure customer satisfaction using review ratings
+Age group
 
-Create an interactive and insightful dashboard
+Product category
 
-🛠️ Tools & Technologies
+Purchase amount
 
-Python 
+Review rating
 
-Data cleaning and preprocessing
+Shipping type
 
-Exploratory Data Analysis (EDA) using Pandas & NumPy
+Subscription status
 
-SQL 
+This dataset helps analyze customer demographics, spending patterns, and product preferences.
 
-Data extraction and transformation
+🛠 Tools Used
 
-Aggregations, filtering, and joins
+SQL – Data exploration and analysis
 
-KPI calculations (sales, revenue, customer count)
+Power BI – Interactive dashboard creation
 
-Power BI 
+CSV Dataset – Source data
 
-Interactive dashboard creation
+SQL Analysis
 
-DAX measures and calculated columns
+📌Key SQL queries were used to analyze the dataset:
 
-Filters, slicers, and visual storytelling
+Total revenue by gender
 
-📊 Dashboard Highlights
+Customers who used discounts but spent above average
 
-Total Customers: 3.9K
+Top products by review rating
 
-Average Purchase Amount: $59.76
+Average purchase amount per customer
 
-Average Review Rating: 3.75
+Revenue distribution by product category
 
-Subscription Analysis:
+🚀Key Insights
 
-73% Non-Subscribers
+Clothing and accessories generate the highest revenue among product categories.
 
-27% Subscribers
+Young adult customers contribute the highest purchase value.
 
-Author
+A majority of customers do not use subscription services.
 
-Manjunathan - Data Analyst(fresher)
+The average purchase amount per customer is approximately $59.76.
+
+Review ratings remain relatively consistent across product categories.
 
