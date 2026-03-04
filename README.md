@@ -7,6 +7,9 @@ Tools: Python | SQL | Power BI
 This project focuses on analyzing customer behavior and purchasing patterns using Python for data processing, SQL for querying and transformation, and Power BI for interactive data visualization.
 The goal is to help businesses understand customers better and make data-driven decisions.
 
+## 📊 Dashboard Preview
+![Customer Shopping Behaviour](customer_shopping_behaviour_dashboard_overview.png)
+
 🎯 Objectives
 
 Analyze customer subscription status and demographics
